@@ -1,0 +1,34 @@
+.profile_profile{
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+.profile_img img{
+   width: 40px;
+}
+.profile_details{
+    padding-left: 0.5rem;
+}
+.profile_details h3{
+    font-size: 1rem;
+}
+.profile_details p{
+    font-size: 0.875rem;
+    color: #ccc;
+    font-weight: 400;
+}
+.profile_more{
+    padding-left: 1rem;
+}
+@media (min-width:770px) and (max-width:1300px){
+    .profile_details{
+        display: none;
+    }
+    .profile_more{
+        display: none;
+    }
+    .profile_profile{
+        margin-left: 2.3rem;
+    }
+}

@@ -1,0 +1,35 @@
+.message_input{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.message_input input{
+    width: 300px;
+    margin: 1rem 3.5rem;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+.message_message{
+    display: flex;
+    padding: 1rem;
+    margin-top: 0.875rem;
+}
+.message_image img{
+    width: 40px;
+}
+.message_details{
+    padding-left: 0.5rem;
+}
+.message_details h4 span{
+    font-weight: 300;
+    color: rgb(134, 131, 131);
+}
+@media screen and (min-width:768px) {
+    .message{
+        height: 200vh;
+    }
+}

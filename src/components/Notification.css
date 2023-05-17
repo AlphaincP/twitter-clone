@@ -1,0 +1,53 @@
+
+.notification{
+    display: flex;
+    margin: 0.7rem 0.5rem;
+}
+.noti_account img{
+    width: 35px;
+}
+.noti_name{
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+}
+.noti_setting{
+    margin-left: auto;
+}
+.noti_icon{
+    font-size: 25px;
+    margin-top: 0.3rem;
+}
+.noti_ul ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.noti_ul li{
+    font-size: 1.1rem;
+    padding: 0 1.8rem;
+}
+.noti_noti{
+    border-bottom: 1px solid rgb(39,39,39);
+}
+.noti_card{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(39,39,39);
+}
+.n_ico{
+    font-size: 56px;
+}
+.noti_card p{
+    padding-left: 1rem;
+}
+@media screen and (min-width:768px) {
+    .noti_account{
+        display: none;
+    }
+    .noti_page{
+        height: 200vh;
+    }
+}

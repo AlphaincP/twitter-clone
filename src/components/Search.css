@@ -1,0 +1,46 @@
+.search{
+    float: right;
+}
+.search_input{
+    margin: 1rem 2rem;
+}
+.search_input input{
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem;
+    outline: none;
+}
+.exp_bod{
+    padding: 1rem;
+    background-color: #333;
+    border-radius: 20px;
+    margin: 0 2rem;
+}
+.exp_bod h3{
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+.trend_card{
+    display: flex;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.trend_more{
+    margin-left: auto;
+}
+.trend_detail h5{
+    color: rgb(132, 132, 132);
+    font-weight: 400;
+}
+.trend_detail h4{
+    color: #fff;
+}
+.trend_more{
+    color: #fff;
+}

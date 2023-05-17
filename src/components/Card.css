@@ -1,0 +1,63 @@
+.card{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    border-bottom: 1px solid rgb(39,39,39);
+}
+.card_page{
+    margin-top: 1.3rem;
+}
+.card_image img{
+    width: 40px;
+}
+.card_details{
+    padding-left: 0.8rem;
+}
+.card_details span{
+    color: rgb(139, 139, 139);
+    font-weight: 400;
+    font-weight: 300;
+}
+.t_time{
+    color: #ccc;
+}
+.tweet{
+    margin-top: 1.3rem;
+}
+.tweet img{
+    width: 320px;
+    margin-top: 0.875rem;
+    border-radius: 10px;
+}
+.card_icons ul{
+    display: flex;
+    list-style-type: none;
+}
+.card_icons li{
+    padding: 0 1rem;
+    font-size: 16px;
+}
+@media screen and (min-width:768px) {
+    .tweet img{
+        width: 450px;
+    }
+    .card{
+        padding-left: 1.3rem;
+    }
+}
+@media (min-width:770px) and (max-width:1300px){
+    .card{
+        padding-left: 0.1rem;
+    }
+}
+@media (min-width:405px) and (max-width:765px){
+    .tweet img{
+        width: 500px;
+    }
+}
+@media (min-width:405px) and (max-width:800px){
+    .tweet img{width: 300px;}
+    .card{
+        padding-left: 1.3rem;
+    }
+}

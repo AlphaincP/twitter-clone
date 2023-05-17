@@ -1,0 +1,71 @@
+.follow_page{
+    padding: 0.5rem;
+    margin-top: 0.6rem;
+    border-bottom: 1px solid rgb(39,39,39);
+}
+.follow_header{
+    color: #fff;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.follow_header h3{
+    font-size: 1.4rem;
+}
+.f_ico{
+    margin-left: auto;
+}
+.follow_card{
+    display: flex;
+    margin-top: 0.67rem;
+}
+.follow_image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.follow_details{
+    padding-left: 0.5rem;
+}
+.follow_details p{
+    color: rgb(139, 139, 139);
+}
+.follow_details h4{
+    font-weight: 400;
+}
+.follow_button button{
+    padding: 0.67rem 2.3rem;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: auto;
+}
+.follow_page a{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+    font-weight: 500;
+    margin-top: 1.8rem;
+}
+@media screen and (min-width:768px) {
+    .follow_card{
+        position: relative;
+        margin-top: 1.5rem;
+    }
+    .follow_button{
+       position: absolute;
+       top: 0;
+       right: 2%;
+    }
+}
+@media (min-width:405px) and (max-width:765px){
+    .follow_card{
+        position: relative;
+       
+    }
+    .follow_button{
+        position: absolute;
+        top: 0;
+        right: 2%;
+    }
+}

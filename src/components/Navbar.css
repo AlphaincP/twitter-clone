@@ -1,0 +1,149 @@
+.Navbar{
+    width:23%;
+    border-right: 1px solid rgb(39,39,39);
+    height: 100vh;
+    color: #fff;
+    float: left;
+    position: fixed;
+}
+.ul{
+    list-style-type: none;
+    padding: 1rem 4rem;
+}
+li{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    cursor: pointer;
+    
+}
+li span{
+    margin-left: 0.5rem;
+    padding-top: -0.3rem;
+    
+}
+.t_logo{
+    font-size: 30px;
+}
+.n_icon{
+    font-size: 25px;
+    margin-bottom: -0.2rem;
+}
+li:hover{
+    background-color: rgb(33, 33, 33);
+    border-radius: 30px;
+    padding: 1rem;
+}
+.t_button{
+    padding: 1.2rem 5.6rem;
+    border: none;
+    background-color: rgb(15, 142, 254);
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: -0.5rem;
+}
+.ul .selected{
+    background-color: rgb(33, 33, 33);
+    border-radius: 30px;
+    padding: 1rem;
+}
+@media screen and (max-width:768px) {
+    .Navbar{
+        width: 70%;
+        position: relative;
+        display:none;
+    }
+    .ul{
+        margin-left: -3rem;
+    }
+    .home,.exp,.noti,.mess,.t_button,.t_logo{
+        display: none;
+    }
+    .hr{
+        color: #ccc;
+        padding: 0.1rem;
+        border: none;
+    }
+    li:hover{
+        background-color: transparent;
+    }
+    .profile_p{
+display: none;
+    }
+        
+    
+    
+}
+@media (min-width:770px) and (max-width:950px) {
+    .Navbar{
+        width: 15%;
+    }
+    .ul{
+        padding-left: 3rem;
+        padding-top: 1.2rem;
+    }
+    .ul li span{
+        display: none;
+    }
+    .n_icon{
+        font-size: 30px;
+    }
+    .ul li{
+        padding-top: 2rem;
+    }
+    .list{
+        margin-top: 3rem;
+    }
+    .ul li:hover{
+        background-color: transparent;
+        padding: 0;
+    }
+    .t_button{
+        border-radius: 55%;
+        padding: 0.8rem;
+        margin-left: -1.5rem;
+    }
+    .selected{
+        background-color: transparent;
+        padding: 0;
+    }
+}
+@media (min-width:951px) and (max-width:1300px) {
+    .Navbar{
+        width: 10%;
+    }
+    .ul{
+        padding-left: 3rem;
+        padding-top: 2rem;
+        
+    }
+    .ul li span{
+        display: none;
+    }
+    .n_icon{
+        font-size: 30px;
+    }
+    .ul li{
+        padding-top: 2rem;
+    }
+    .list{
+        margin-top: 3rem;
+    }
+    .ul li:hover{
+        background-color: transparent;
+        padding: 0;
+    }
+    .t_button{
+        border-radius: 55%;
+        padding: 0.8rem;
+        margin-left: -1.1rem;
+        font-size: 0.6rem;
+    }
+    .selected{
+        background-color: transparent;
+        padding: 0;
+    }
+    
+}

@@ -1,0 +1,39 @@
+.App{
+   width: 100%;
+}
+.app_content{
+    color: #fff;
+    width: 100%;
+}
+
+@media  screen and (min-width:768px) {
+    .app_footer{
+        display: none;
+    }
+   
+    .App{
+        display: flex;
+        width: 100%;
+    }
+    .app{display:flex}
+    .app_content{
+       
+        
+        width: 48.5%;
+        border-right: 1px solid rgb(39,39,39);
+        height: auto;
+        overflow-y: auto;
+       margin-left: 22rem;
+        }
+}
+@media (min-width:770px) and (max-width:1300px){
+    .app_content{
+        margin-left: 10rem;
+        
+    }
+}
+@media screen and (max-width:768px) {
+    .app_right_content{
+        display: none;
+    }
+}
